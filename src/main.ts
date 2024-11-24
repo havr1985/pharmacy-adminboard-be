@@ -9,8 +9,8 @@ async function bootstrap() {
   const configService = app.get<ConfigService>(ConfigService);
 
   const config = new DocumentBuilder()
-    .setTitle('Tournament Tracker Swagger')
-    .setDescription('Tournament Tracker API')
+    .setTitle('E-Pharmacy Admin Dashboard Swagger')
+    .setDescription('E-Pharmacy Admin Dashboard API')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
